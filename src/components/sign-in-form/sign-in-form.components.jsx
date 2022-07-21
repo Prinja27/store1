@@ -10,7 +10,7 @@ import {
   signInAuthUserWithEmailAndPassword,
 } from '../../utils/firebase/firebase.utils';
 
-import './sign-in.styles.scss';
+import './sign-in-form.styles.scss';
 
 const defaultFormFields = {
   email: '',
@@ -89,7 +89,6 @@ const SignInForm = () => {
           </Button>
         </div>
       </form>
-      <SignUpForm/>
     </div>
   );
 };
